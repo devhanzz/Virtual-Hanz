@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
       sendbtn.disabled = true;
       document.querySelector('.msgs_cont').scrollTop = document.querySelector('.msgs_cont').scrollHeight;
-      fetch("https://hanz-server.onrender.com/generate", {
+      fetch("https://hanz-server-kgno.onrender.com/generate", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
